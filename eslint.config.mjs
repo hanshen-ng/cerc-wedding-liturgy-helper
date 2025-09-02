@@ -20,8 +20,7 @@ const eslintConfig = [
       "next-env.d.ts",
     ],
     rules: {
-      "no-unused-vars": "warn",
-      "react/react-in-jsx-scope": "off",
+      "no-require-imports": "off",
     },
   },
 ];
